@@ -1,6 +1,6 @@
 *.pyc
 *.pyo
 *.swp
-Segmentor/Data/
 build/
+Segmentor/Data/
 tmp/
