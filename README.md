@@ -11,11 +11,13 @@
     
 * 下載斷詞及詞性標記模型：
 	* 下載處：
-		* [naer-segmentor-models-20160318.tar.gz](https://drive.google.com/drive/folders/1FeYkV6vBQqzkthkYVLBP-3faUK2-WY13?usp=sharing)
-	* 模型下載後於 Segmentor_py3/Segmentor 目錄下解壓縮
+		* [naer-segmentor-models-20160318.tar.gz](https://drive.google.com/uc?id=1P75f9sCNZCarD5s1n2JEM0TQvmwAouPj)
+	* 進入 Segmentor_py3/Segmentor 目錄下，下載模型並解壓縮
 
 		```
-		$ tar zxvf naer-segmentor-models-xxx.tar.gz -C Segmentor_py3/Segmentor
+        $ cd Segmentor_py3/Segmentor
+        $ gdown https://drive.google.com/uc?id=1P75f9sCNZCarD5s1n2JEM0TQvmwAouPj
+		$ tar zxvf naer-segmentor-models-xxx.tar.gz
 		```
 
 
