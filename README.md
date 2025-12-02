@@ -10,8 +10,6 @@
 	```$ git clone https://github.com/mhbai/Segmentor_py3.git```
     
 * 下載斷詞及詞性標記模型：
-	* 下載處：
-		* [naer-segmentor-models-20160318.tar.gz](https://drive.google.com/uc?id=1P75f9sCNZCarD5s1n2JEM0TQvmwAouPj)
 	* 進入 Segmentor_py3/Segmentor 目錄下，下載模型並解壓縮
 
 		```
@@ -19,7 +17,10 @@
         $ gdown https://drive.google.com/uc?id=1P75f9sCNZCarD5s1n2JEM0TQvmwAouPj
 		$ tar zxvf naer-segmentor-models-xxx.tar.gz
 		```
-
+    * 如果沒有 gdown ，請先安裝
+        ```
+        $ pip install gdown
+        ```
 
 *  安裝程式與資料：
 	* 在 Segmentor_py3 目錄下執行安裝：
