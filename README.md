@@ -36,8 +36,8 @@
 >>> import json
 >>> from Segmentor import *
 >>> segmenter=Segmentor()
->>> words=segmenter.segment(u"中文斷詞系統。")
->>> print json.dumps(words,ensure_ascii=False)
+>>> words=segmenter.segment("中文斷詞系統。")
+>>> print(words)
 >>> ["中文", "斷詞", "系統", "。"]
 ```
 	    
